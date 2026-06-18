@@ -10,12 +10,8 @@ export default function LoginPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Aapke screenshot ke mutabik credentials check
     if (email === 'abc@gmail.com' && password === '1234567') {
       alert('Login successful!');
-      
-      // Submit hote hi main home page par bhejne ke liye
       router.push('/'); 
     } else {
       alert('Galat Email ya Password!');

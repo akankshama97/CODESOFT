@@ -73,7 +73,6 @@ export default function TakeQuiz({ params }) {
       <div style={{ backgroundColor: 'white', padding: '30px', borderRadius: '10px', boxShadow: '0 4px 15px rgba(0,0,0,0.1)', width: '100%', maxWidth: '500px' }}>
         <h3 style={{ textAlign: 'center', color: '#0070f3', marginBottom: '20px' }}>My Quiz App</h3>
 
-        {/* Conditional Rendering: Agar result nahi dikhana hai toh sawaal dikhao */}
         {!showResult ? (
           <div>
             <p style={{ fontWeight: 'bold', color: '#666' }}>Question {currentQuestion + 1} of {quizQuestions.length}</p>
